@@ -5,8 +5,6 @@
 template <class T>
 class LinkedList{
     private: 
-        template<class U> friend class LinkedList;
-        template<class U> friend class Iterator1;
         int size;
         Node<T>*head;
     public:
