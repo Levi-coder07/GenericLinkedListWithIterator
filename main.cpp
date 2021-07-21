@@ -25,10 +25,10 @@ int main(){
     cout<<F<<endl;
     Iterator1<string> it(F.begin());
     int f;
-    
     for (it=F.begin();it!=F.end();++it){
-
         it+="2"; 
+        cout<<it<<endl;
+        f++;
     }
     cout<<f<<endl;
     cout<<F<<endl;
