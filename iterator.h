@@ -5,7 +5,7 @@
 template <class T>
 class Iterator1{
     private:
-        template<class U> friend class LinkedList;
+        
         Node<T> * actual;
          
     public:
