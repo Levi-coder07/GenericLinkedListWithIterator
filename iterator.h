@@ -24,10 +24,10 @@ class Iterator1{
             return this->actual != i.actual;
 
         }
-        /*friend std::ostream& operator <<(std::ostream &salida1,const Iterator1& it){
+        friend std::ostream& operator <<(std::ostream &salida1,const Iterator1& it){
             cout<<it.actual->getValue();
             return salida1;
-        }*/
+        }
 };
 template <class T>
 Iterator1<T>::Iterator1(Node<T> * C){
